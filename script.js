@@ -7,7 +7,7 @@ function highlight() {
    
     a.addEventListener("mouseover",function(){
         strong.forEach(element => {
-            element.style.color="green";
+            element.style.color="rgb(0, 128, 0)";
           });
     });
     
@@ -22,7 +22,7 @@ function return_normal() {
    
     a.addEventListener("mouseout",function(){
            strong.forEach(element => {
-            element.style.color="black";
+            element.style.color="rgb(0, 0, 0)";
           });
     });
 
